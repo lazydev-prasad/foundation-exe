@@ -1,0 +1,20 @@
+{
+  "name": "foundation-ex",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Srinivasa Prasad <lazydev.prasad@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "foundation": "^5.5.3"
+  }
+}

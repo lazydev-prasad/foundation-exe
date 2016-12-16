@@ -2,10 +2,35 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
     <title>Foundation</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <nav class="top-bar" data-topbar role="navigation">
+        <ul class="title-area">
+            <li class="name">
+                <h1><a href="#">Foundation</a></h1>
+            </li>
+            <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+        </ul>
+        <section class="top-bar-section">
+            <ul class="right">
+                <li class="active"><a href="#">Home</a></li>
+                <li class="has-dropdown">
+                    <a href="#">Blog Layout</a>
+                    <ul class="dropdown">
+                        <li><a href="#">Blog Layout 1</a></li>
+                        <li class="active"><a href="#">Blog Layout 2</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+    </nav>
     <h1>Hello</h1> 
+    <script src="/bower_components/modernizr/modernizr.js"></script>
+    <script src="/bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="/bower_components/foundation/js/foundation.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
